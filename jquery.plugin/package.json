@@ -10,7 +10,7 @@
     "build:prod": "webpack --config webpack.config.prod.js"
   },
   "dependencies": {
-    "jquery": "1",
+    "jquery": "3",
     "select2": "^4.0.13",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
