@@ -6,6 +6,7 @@
   "author": "zhuqiang <290353142@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
   }
 }

@@ -2,6 +2,7 @@ const $ = require("jquery");
 const Plugin1 = require("./plugin1/Plugin1");
 const Utils = require("./plugin1/utils");
 const Defaults = require("./plugin1/defaults");
+require("../less/jquery.plugin1.less");
 
 if ($.fn.plugin1 == null) {
     // All methods that should return the element

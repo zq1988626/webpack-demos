@@ -19,6 +19,25 @@ module.exports = merge(config,{
         open: true,
         openPage: 'demo.html'
     },
+    module: {
+        rules: [
+            {
+                test: /\.less$/,
+                use: [
+                    "style-loader",
+                    "css-loader",
+                    "less-loader"
+                ]
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
+        ]
+    },
     output: {
         libraryTarget:"umd",
         filename: '[name].js'
