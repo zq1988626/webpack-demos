@@ -1,0 +1,11 @@
+{
+  "name": "webpack-demos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zq1988626/webpack-demos.git",
+  "author": "zhuqiang <290353142@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.43.0"
+  }
+}
