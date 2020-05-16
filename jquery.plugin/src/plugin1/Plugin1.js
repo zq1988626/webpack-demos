@@ -2,7 +2,7 @@ const utils= require("./utils");
 
 function Plugin1($element,option){
     this.$element = $element;
-    $element.css(option.css);
+    option.css&&$element.css(option.css);
     $element.css({
       background:"#eee"
     });

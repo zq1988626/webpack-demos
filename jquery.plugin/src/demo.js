@@ -2,11 +2,11 @@ const $ = require("jquery");
 require("./jquery.plugin1");
 
 var init = function(){
-    $("#test").plugin1({
-        css:{
-            border:"1px solid green"
-        }
-    }).val(1111);
+    $("#test").plugin1().val(1111);
+
+    $(".js-example-basic-single").select2(
+        {"theme":"bootstrap"}
+    );
 }
 
 $(function(){

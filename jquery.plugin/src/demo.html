@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/select2/4.0.12/css/select2.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.css">
 </head>
 <body>
-    <input id="test">
+    <div class="container" style="margin-top:50px;">
+  
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <input id="test" class="form-control">
+            </div>
+            <div class="col-sm-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                </div><!-- /input-group -->
+            </div>
+            <div class="col-sm-4">
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-default">Dropup</button>
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Another action</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="height: 600px;"></div>
+    </div>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/select2/4.0.12/js/select2.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/select2/4.0.12/js/i18n/zh-CN.js"></script>
 </body>
 </html>
